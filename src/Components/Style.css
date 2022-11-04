@@ -1,0 +1,209 @@
+.main {
+  height: 50px;
+  background-color: rebeccapurple;
+  color: white;
+  padding: 20px;
+}
+
+.navigation {
+  font-style: italic;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  justify-content: space-around;
+}
+
+.home {
+  color: white;
+  font-family: cursive;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+.home:hover {
+  color: red;
+}
+
+.student {
+  text-align: center;
+  color: white;
+  font-family: cursive;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+.student:hover {
+  color: red;
+}
+
+.contact {
+  color: white;
+  font-family: cursive;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+.contact:hover {
+  color: red;
+}
+
+.first {
+
+  margin-left: 4vw;
+  margin-top: 4vw;
+  font-size: 25px;
+}
+
+.second {
+
+  margin-left: 6vw;
+  margin-top: 3vw;
+  font-size: 40px;
+  font-family: 'Bungee Inline';
+}
+
+
+.third {
+
+  margin-left: 4vw;
+  font-size: 25px;
+}
+
+.studpage {
+
+  background-image: linear-gradient(#B1E1FF, #FFB3B3, #F1F1F1);
+  padding-top: 2vw;
+  height: 700px;
+
+}
+
+.addstu {
+  text-decoration: none;
+  text-shadow: 4px 4px 4px #F07DEA;
+}
+
+.secpage {
+  display: flex;
+}
+
+
+.but1 {
+  height: 50px;
+  width: 300px;
+  margin-left: 47vw;
+  margin-top: 4vw;
+  border-radius: 25px;
+  border: 2px solid black;
+  font-size: 25px;
+  background-color: aqua
+}
+
+.but1:hover {
+  background-color: #F07DEA;
+}
+
+.addpage {
+  background-image: linear-gradient(#B1E1FF, #FFB3B3, #F1F1F1);
+  height: 700px;
+  padding-top: 2vw;
+}
+
+.homepage {
+  background-image: linear-gradient(#B1E1FF, #FFB3B3, #F1F1F1);
+  height: 700px;
+  padding-top: 2vw;
+}
+
+
+.contactpage {
+  background-image: linear-gradient(#B1E1FF, #FFB3B3, #F1F1F1);
+  height: 700px;
+  padding-top: 2vw;
+}
+
+table,
+th,
+tr,
+td {
+  background-color: white;
+  border: 2px solid black;
+  border-collapse: collapse;
+  box-shadow: 7px 7px 5px 5px rebeccapurple;
+  font-size: 28px;
+  text-align: center;
+  margin: auto;
+  margin-top: 80px;
+}
+
+
+/*Add Student & Edit*/
+
+
+
+.add_student_button {
+  height: 50px;
+  padding: 10px 10px;
+  border: 1px solid;
+  border-radius: 10px;
+  color: rgb(80, 2, 2);
+  background-color: rgb(75, 4, 4);
+  font-size: 20px;
+  text-decoration: none;
+}
+
+
+
+.Add_details_container {
+  background-image: linear-gradient(#B1E1FF, #FFB3B3, #F1F1F1);
+  height: 400px;
+  padding-top: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 50px 50px;
+}
+
+
+label {
+  font-size: 25px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  position: relative;
+  left: 100px;
+}
+
+input {
+  font-size: 25px;
+  margin-left: 20px;
+  border-radius: 15px;
+  border: transparent;
+  padding: 5px;
+  position: relative;
+  left: 100px;
+}
+
+.button_ctn {
+
+  background-image: linear-gradient(#B1E1FF, #FFB3B3, #F1F1F1);
+  height: 80px;
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+.button,.buttons {
+  
+  font-size: 40px;
+  border-radius: 15px;
+  text-decoration: none;
+  height: 60px;
+  width: 250px;
+  background-color: rebeccapurple;
+  color: wheat;
+  text-align: center;
+  position: relative;
+  left: 450px;
+}
+
+.buttons{
+  position: relative;
+  left: 130px;
+}
